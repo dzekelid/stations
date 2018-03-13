@@ -30,7 +30,7 @@ apis:
   tags: Stations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/stations/master/_listings/npr/stationfinder-v3-stations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/stations/master/_listings/npr/stationfinder-v3-stations-stationid-get.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
