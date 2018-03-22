@@ -12,9 +12,9 @@ x-kinRank: "8"
 x-alexaRank: ""
 tags:
 - Weather
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/stations/master/_listings/weatherbit/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/weatherbit/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Weatherbit
@@ -25,7 +25,7 @@ apis:
   tags: Stations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/stations/master/_listings/weatherbit/current-stations-stations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/weatherbit/current-stations-stations-get.md
 x-common:
 - type: x-blog
   url: https://www.weatherbit.io/blog
