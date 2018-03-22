@@ -17,9 +17,9 @@ tags:
 - Getting Started
 - Federal Government
 - Broadcasting
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/stations/master/_listings/npr/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/npr/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: NPR
@@ -30,7 +30,7 @@ apis:
   tags: Stations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/stations/master/_listings/npr/stationfinder-v3-stations-stationid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/npr/identity-v2-stations-put.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
