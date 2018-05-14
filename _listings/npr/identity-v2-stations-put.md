@@ -1,13 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: NPR One API Reference
-  description: NPR One is a smart application that brings the best of NPR and Member
-    Station programming, newscasts, podcasts, and stories together to create a new
-    experience for listening. It provides an editor-curated and localized mobile listening
-    experience based on the content the listener chooses, likes, shares, and enjoys.
-    The API provides all of the content and customization in a simple, structured
-    way that is easy for applicationdevelopers to implement.
+  title: NPR Update the logged-in user's favorite station(s)
+  description: Right now, only the primary station can be changed. Previously selected
+    stations will not be deleted, but the new station will be moved to first in the
+    array.
   termsOfService: http://dev.npr.org/develop/terms-of-use
   contact:
     name: NPR One Enterprise Team
