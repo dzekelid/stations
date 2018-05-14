@@ -1,13 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: NPR One API Reference
-  description: NPR One is a smart application that brings the best of NPR and Member
-    Station programming, newscasts, podcasts, and stories together to create a new
-    experience for listening. It provides an editor-curated and localized mobile listening
-    experience based on the content the listener chooses, likes, shares, and enjoys.
-    The API provides all of the content and customization in a simple, structured
-    way that is easy for applicationdevelopers to implement.
+  title: NPR Retrieve metadata for the station with the given numeric ID
+  description: |-
+    This endpoint retrieves information about a given station, based on its numeric ID, which is consistent across all of NPR's APIs.
+
+    A typical use case for this data is for clients who want to create a dropdown menu, modal/pop-up or dedicated page displaying more information about the station the client is localized to, including, for example, links to the station's homepage and donation (pledge) page.
   termsOfService: http://dev.npr.org/develop/terms-of-use
   contact:
     name: NPR One Enterprise Team
