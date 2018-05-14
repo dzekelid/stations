@@ -26,7 +26,33 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/weatherbit/current-stations-stations-get.md
+- name: Weatherbit Get Current Stations Stations
+  description: '**(Advanced/Advanced+/Enterprise plans only)** Returns a group of
+    Current Observations - Given a list of Station Call IDs.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
+  humanURL: https://www.weatherbit.io/api
+  baseURL: https://api.weatherbit.io//v2.0
+  tags: Stations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/weatherbit/current-stations-stations-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/weatherbit/current-stations-stations-get-postman.md
 x-common:
+- type: x-blog
+  url: https://www.weatherbit.io/blog
+- type: x-contact-form
+  url: https://www.weatherbit.io/contact
+- type: x-documentation
+  url: https://www.weatherbit.io/api
+- type: x-github
+  url: https://github.com/weatherbit
+- type: x-pricing
+  url: https://www.weatherbit.io/pricing
+- type: x-twitter
+  url: https://twitter.com/weatherbitio
+- type: x-website
+  url: https://www.weatherbit.io/api
 - type: x-blog
   url: https://www.weatherbit.io/blog
 - type: x-contact-form
