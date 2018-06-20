@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jp
 x-kinRank: "9"
 x-alexaRank: "641"
 tags: Stations
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/npr/apis.md
 specificationVersion: "0.14"
 apis:
@@ -19,9 +19,9 @@ apis:
     stations will not be deleted, but the new station will be moved to first in the
     array.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: http://www.npr.org
+  humanURL: http://npr.org
   baseURL: https://api.npr.org////identity/v2/stations
-  tags: Entity, Stations
+  tags: News,Entity, Stations
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/npr/identityv2stations-put-openapi.md
@@ -41,9 +41,9 @@ apis:
 
     If clients want to be able to offer multiple types of searches (e.g. 'Search for a station name, city or zipcode') using a *single* search input form, `q` should be used. But again, be aware that using `city` and `state` together will yield more accurate search results than `q={cityName}`.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: http://www.npr.org
+  humanURL: http://npr.org
   baseURL: https://api.npr.org////stationfinder/v3/stations
-  tags: Stationfinder, V3, Stations
+  tags: News,Stationfinder, Stations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/npr/stationfinderv3stations-get-postman.md
@@ -56,9 +56,9 @@ apis:
 
     A typical use case for this data is for clients who want to create a dropdown menu, modal/pop-up or dedicated page displaying more information about the station the client is localized to, including, for example, links to the station's homepage and donation (pledge) page.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: http://www.npr.org
+  humanURL: http://npr.org
   baseURL: https://api.npr.org////stationfinder/v3/stations/{stationId}
-  tags: Stationfinder, V3, Stations, Station
+  tags: News,Stationfinder, Stations, Station
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/npr/stationfinderv3stationsstationid-get-postman.md
@@ -70,7 +70,7 @@ apis:
     business, politics, health, science, technology, music, arts and culture. Subscribe
     to podcasts and RSS feeds.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: http://www.npr.org
+  humanURL: http://npr.org
   baseURL: https://api.npr.org//
   tags: Stations
   properties:
@@ -121,6 +121,8 @@ x-common:
   url: https://twitter.com/NPR
 - type: x-twitter
   url: https://twitter.com/NPRTechTeam
+- type: x-website
+  url: http://npr.org
 - type: x-website
   url: http://www.npr.org
 include: []

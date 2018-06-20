@@ -42,6 +42,7 @@ paths:
         200:
           description: OK
       tags:
+      - News
       - Entity
       - Stations
 x-streamrank:

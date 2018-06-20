@@ -10,10 +10,10 @@ description: Our mission at Weatherbit.io is pretty simple. It is to provide the
   accurate, and relevant forecast apis on the web.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Stations
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/weatherbit/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   description: '**(Advanced/Advanced+/Enterprise plans only)** Returns a group of
     Current Observations - Given a list of Station Call IDs.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
-  humanURL: https://www.weatherbit.io/api
+  humanURL: http://weatherbit.io
   baseURL: https://api.weatherbit.io//v2.0//current?stations={stations}
   tags: Weather,Current, Stations, Stations
   properties:
@@ -40,7 +40,7 @@ apis:
     (GFS/ECMWF), in combination with local short range high resolution models to derive
     the most accurate, and relevant forecast apis on the web.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/weatherbit-logo.png
-  humanURL: https://www.weatherbit.io/api
+  humanURL: http://weatherbit.io
   baseURL: https://api.weatherbit.io//v2.0
   tags: Stations
   properties:
@@ -59,6 +59,8 @@ x-common:
   url: https://www.weatherbit.io/pricing
 - type: x-twitter
   url: https://twitter.com/weatherbitio
+- type: x-website
+  url: http://weatherbit.io
 include: []
 maintainers:
 - FN: Kin Lane

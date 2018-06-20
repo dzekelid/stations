@@ -43,6 +43,7 @@ paths:
         200:
           description: OK
       tags:
+      - News
       - Entity
       - Stations
   /stationfinder/v3/stations:
@@ -90,8 +91,8 @@ paths:
         200:
           description: OK
       tags:
+      - News
       - Stationfinder
-      - V3
       - Stations
   /stationfinder/v3/stations/{stationId}:
     get:
@@ -112,8 +113,8 @@ paths:
         200:
           description: OK
       tags:
+      - News
       - Stationfinder
-      - V3
       - Stations
       - Station
 x-streamrank:

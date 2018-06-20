@@ -4,7 +4,7 @@ x-collection-name: Washington Metropolitan Area Transit Authority
 x-complete: 1
 info:
   title: Real-Time Rail Predictions
-  description: realtime-rail-prediction-methods
+  description: realtime-rail-prediction-methods-
   version: 1.0.0
 host: api.wmata.com
 basePath: /StationPrediction.svc

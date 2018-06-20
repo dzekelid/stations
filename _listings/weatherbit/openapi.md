@@ -4,7 +4,7 @@ x-collection-name: Weatherbit
 x-complete: 1
 info:
   title: Weatherbit
-  description: this-is-the-documentation-for-the-weatherbit-api--the-base-url-for-the-api-is-httpapiweatherbitiov20httpapiweatherbitiov20-or-httpsapiweatherbitiov20httpapiweatherbitiov20-below-is-the-swagger-ui-documentation-for-the-api-all-api-requests-require-the-key-parameter--------an-example-for-a-5-day-forecast-for-london-uk-would-be-httpapiweatherbitiov20forecast3hourlycitylondoncountryuk
+  description: this-is-the-documentation-for-the-weatherbit-api---the-base-url-for-the-api-is-httpapi-weatherbit-iov2-0httpapi-weatherbit-iov2-0-or-httpsapi-weatherbit-iov2-0httpapi-weatherbit-iov2-0--below-is-the-swagger-ui-documentation-for-the-api--all-api-requests-require-the-key-parameter---------an-example-for-a-5-day-forecast-for-london-uk-would-be-httpapi-weatherbit-iov2-0forecast3hourlycitylondoncountryuk
   version: 2.0.0
 host: api.weatherbit.io
 basePath: /v2.0
