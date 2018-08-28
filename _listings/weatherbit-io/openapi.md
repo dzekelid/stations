@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Weatherbit.io
 x-complete: 1
@@ -46,4 +45,187 @@ paths:
       - Current
       - Stations
       - Stations
----
+  /bulk/history/daily?station={station}:
+    get:
+      summary: Get Bulk History Daily Station
+      description: Returns Historical Observations - Given a station ID.
+      operationId: returns-historical-observations--given-a-station-id
+      x-api-path-slug: bulkhistorydailystationstation-get
+      parameters:
+      - in: query
+        name: callback
+        description: Wraps return in jsonp callback
+      - in: query
+        name: end_date
+        description: End Date (YYYY-MM-DD or YYYY-MM-DD:HH)
+      - in: query
+        name: key
+        description: Your registered API key
+      - in: query
+        name: lang
+        description: 'Language (Default: English) See language field description'
+      - in: query
+        name: start_date
+        description: Start Date (YYYY-MM-DD or YYYY-MM-DD:HH)
+      - in: path
+        name: station
+        description: Station ID
+      - in: query
+        name: units
+        description: Convert to units
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Bulk
+      - History
+      - Daily
+      - Station
+      - Station
+  /bulk/history/hourly?station={station}:
+    get:
+      summary: Get Bulk History Hourly Station
+      description: Returns Historical Observations - Given a station ID.
+      operationId: returns-historical-observations--given-a-station-id
+      x-api-path-slug: bulkhistoryhourlystationstation-get
+      parameters:
+      - in: query
+        name: callback
+        description: Wraps return in jsonp callback
+      - in: query
+        name: end_date
+        description: End Date (YYYY-MM-DD or YYYY-MM-DD:HH)
+      - in: query
+        name: key
+        description: Your registered API key
+      - in: query
+        name: lang
+        description: 'Language (Default: English) See language field description'
+      - in: query
+        name: start_date
+        description: Start Date (YYYY-MM-DD or YYYY-MM-DD:HH)
+      - in: path
+        name: station
+        description: Station ID
+      - in: query
+        name: units
+        description: Convert to units
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Bulk
+      - History
+      - Hourly
+      - Station
+      - Station
+  /current?station={station}:
+    get:
+      summary: Get Current Station Station
+      description: Returns a Current Observation - Given a station ID.
+      operationId: returns-a-current-observation--given-a-station-id
+      x-api-path-slug: currentstationstation-get
+      parameters:
+      - in: query
+        name: callback
+        description: Wraps return in jsonp callback
+      - in: query
+        name: key
+        description: Your registered API key
+      - in: query
+        name: lang
+        description: 'Language (Default: English) See language field description'
+      - in: path
+        name: station
+        description: Station Call ID
+      - in: query
+        name: units
+        description: Convert to units
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - Current
+      - Station
+      - Station
+  /history/daily?station={station}:
+    get:
+      summary: Get History Daily Station Station
+      description: Returns Historical Observations - Given a station ID. **(LIMIT
+        1 day for Low Volume plans. LIMIT 7 days for Basic/Developer. LIMIT 30 days
+        for Advanced/Advanced+/Enterprise)**
+      operationId: returns-historical-observations--given-a-station-id-limit-1-day-for-low-volume-plans-limit-7-days-fo
+      x-api-path-slug: historydailystationstation-get
+      parameters:
+      - in: query
+        name: callback
+        description: Wraps return in jsonp callback
+      - in: query
+        name: end_date
+        description: End Date (YYYY-MM-DD or YYYY-MM-DD:HH)
+      - in: query
+        name: key
+        description: Your registered API key
+      - in: query
+        name: lang
+        description: 'Language (Default: English) See language field description'
+      - in: query
+        name: start_date
+        description: Start Date (YYYY-MM-DD or YYYY-MM-DD:HH)
+      - in: path
+        name: station
+        description: Station ID
+      - in: query
+        name: units
+        description: Convert to units
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - History
+      - Daily
+      - Station
+      - Station
+  /history/hourly?station={station}:
+    get:
+      summary: Get History Hourly Station Station
+      description: Returns Historical Observations - Given a station ID. **(LIMIT
+        1 day for Low Volume plans. LIMIT 7 days for Basic/Developer. LIMIT 30 days
+        for Advanced/Advanced+/Enterprise)**
+      operationId: returns-historical-observations--given-a-station-id-limit-1-day-for-low-volume-plans-limit-7-days-fo
+      x-api-path-slug: historyhourlystationstation-get
+      parameters:
+      - in: query
+        name: callback
+        description: Wraps return in jsonp callback
+      - in: query
+        name: end_date
+        description: End Date (YYYY-MM-DD or YYYY-MM-DD:HH)
+      - in: query
+        name: key
+        description: Your registered API key
+      - in: query
+        name: lang
+        description: 'Language (Default: English) See language field description'
+      - in: query
+        name: start_date
+        description: Start Date (YYYY-MM-DD or YYYY-MM-DD:HH)
+      - in: path
+        name: station
+        description: Station ID
+      - in: query
+        name: units
+        description: Convert to units
+      responses:
+        200:
+          description: OK
+      tags:
+      - Weather
+      - History
+      - Hourly
+      - Station
+      - Station

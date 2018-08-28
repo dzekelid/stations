@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Amadeus
 x-complete: 1
@@ -40,4 +39,19 @@ paths:
       - Rail
       - Stations
       - Autocomplete
----
+  /rail-station/{id}:
+    get:
+      summary: Get Rail Station
+      description: Get rail station
+      operationId: getRailStation
+      x-api-path-slug: railstationid-get
+      parameters:
+      - in: path
+        name: id
+        description: Station ID for which further information is required
+      responses:
+        200:
+          description: OK
+      tags:
+      - Rail
+      - Station

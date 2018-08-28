@@ -103,6 +103,29 @@ paths:
       - News
       - Stationfinder
       - Stations
+  /stationfinder/v3/stations/{stationId}:
+    get:
+      summary: Retrieve metadata for the station with the given numeric ID
+      description: |-
+        This endpoint retrieves information about a given station, based on its numeric ID, which is consistent across all of NPR's APIs.
+
+        A typical use case for this data is for clients who want to create a dropdown menu, modal/pop-up or dedicated page displaying more information about the station the client is localized to, including, for example, links to the station's homepage and donation (pledge) page.
+      operationId: getStationById
+      x-api-path-slug: stationfinderv3stationsstationid-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: path
+        name: stationId
+        description: The numeric ID of a station
+      responses:
+        200:
+          description: OK
+      tags:
+      - News
+      - Stationfinder
+      - Stations
+      - Station
 x-streamrank:
   polling_total_time_average: "0"
   polling_size_download_average: "0"

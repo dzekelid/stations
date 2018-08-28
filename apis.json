@@ -1,0 +1,185 @@
+{
+	"name": "Streadata.io API Gallery - Stations",
+	"description": "This is a repository of stations APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/stations.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://stations.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "NPR",
+			"x-api-slug": "npr",
+			"description": "NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg",
+			"humanURL": "http://npr.org",
+			"baseURL": "https://api.npr.org//",
+			"tags": "Stations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/npr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Washington Metropolitan Area Transit Authority",
+			"x-api-slug": "washington-metropolitan-area-transit-authority",
+			"description": "Official feed of Metro/WMATA, not monitored 24/7. Report emergencies to Transit Police at (202) 962-2121. Service updates @metrorailinfo & @metrobusinfo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1214-washington-metropolitan-area-transit-authority.jpg",
+			"humanURL": "http://wmata.com/",
+			"baseURL": "https://api.wmata.com//TrainPositions",
+			"tags": "Stations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/washington-metropolitan-area-transit-authority/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "Stations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/here/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weatherbit.io",
+			"x-api-slug": "weatherbit-io",
+			"description": "Our Weather API is the most powerful Weather data API on the web. Sign up for our free Weather API, and upgrade as your weather data needs grow!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg",
+			"humanURL": "http://weatherbit.io",
+			"baseURL": "https://api.weatherbit.io//v2.0",
+			"tags": "Stations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/weatherbit-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Amadeus",
+			"x-api-slug": "amadeus",
+			"description": "Amadeus travel technology helps businesses connect to the global travel ecosystem, manage operations more effectively and serve travellers better than ever",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg",
+			"humanURL": "https://amadeus.com",
+			"baseURL": "https://api.sandbox.amadeus.com//v1.2",
+			"tags": "Stations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/amadeus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Actility",
+			"x-api-slug": "actility",
+			"description": "Actility is the leader in low power wide area (LoRaWAN and 3GPP) network connectivity management for the Internet of Things: the ThingPark platform",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28250-actility.jpg",
+			"humanURL": "https://www.actility.com",
+			"baseURL": "https://dx-api.thingpark.com//maker/v011/api",
+			"tags": "Stations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/actility/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Entertainment Express",
+			"x-api-slug": "entertainment-express",
+			"description": "Internet Video Archive (IVA) is a leading entertainment data company providing metadata, images and trailers/clips, for movie and TV content. With the launch of its award-winning Entertainment Express APIs, clients can easily access everything they need to create engaging content discovery experiences. By using Entertainment Express, clients can also connect to other services like movie showtimes and ticketing, content recommendations, content availability and TV channel line-ups. With over a million titles, episodes and over 150,000 videos available, IVA makes it easy for developers to integrate all the services they need at a very affordable price.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png",
+			"humanURL": "https://www.internetvideoarchive.com/",
+			"baseURL": "https://ee.iva-api.com//",
+			"tags": "Stations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/entertainment-express/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Netatmo",
+			"x-api-slug": "netatmo",
+			"description": "We develop groundbreaking, intuitive and beautifully-designed connected consumer electronics. Truly smart, our innovative products provide a seamless experience that helps users create a safer, healthier and more comfortable home. We carefully design the mechanics, electronics and embedded software of all our products to the highest standards. Our mobile and web applications are designed to be simple to operate, yet deliver a rich user experience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/netatmo-logo.png",
+			"humanURL": "http://www.netatmo.com",
+			"baseURL": "https://api.netatmo.net//api",
+			"tags": "Stations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/netatmo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Stations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/ship-station/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Stations",
+	"include": [
+		{
+			"name": "NPR",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/npr/apis.yaml"
+		},
+		{
+			"name": "Washington Metropolitan Area Transit Authority",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/washington-metropolitan-area-transit-authority/apis.yaml"
+		},
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/here/apis.yaml"
+		},
+		{
+			"name": "Weatherbit.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/weatherbit-io/apis.yaml"
+		},
+		{
+			"name": "Amadeus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/amadeus/apis.yaml"
+		},
+		{
+			"name": "Actility",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/actility/apis.yaml"
+		},
+		{
+			"name": "Entertainment Express",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/entertainment-express/apis.yaml"
+		},
+		{
+			"name": "Netatmo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/netatmo/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/stations/master/_listings/ship-station/apis.yaml"
+		}
+	]
+}
